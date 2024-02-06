@@ -342,6 +342,10 @@ font-size: 38px;
     font-size: 12px;
 }
 
+
+
+/* ESTILIZAR PORTIFOLIO */
+
 .portifolio{
     background: var(--segund-bg-color);
 }
@@ -421,6 +425,8 @@ font-size: 38px;
     font-size: 3rem;
     color: var(--segund-bg-color);
 }
+
+
 
 .contato{
     margin-bottom: 5rem;
