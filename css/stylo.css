@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 
 *{
@@ -12,7 +14,7 @@
 }
 
 :root{
-    --bg-color: #1f242d;
+    --bg-color: #030303;
     --segund-bg-color: #323946;
     --text-color: #fff;
     --main-color: rgb(18, 211, 37);
@@ -135,15 +137,15 @@ section{
     }
 
     41%, 60%{
-        content: "Edição de vídeos";
+        content: "Dashboards!";
     }
 
     61%, 80%{
-        content: "Web Designer!";
+        content: "Aplicativos Mobile!";
     }
 
-    81%, 100%{
-        content: "Editor Motion!";
+    82%, 100%{
+        content: "Suporte e Manutenção!";
     }
 }
 
@@ -257,11 +259,15 @@ section{
     align-items: center;
     justify-content: center;
     gap: 4rem;
-    background: var(--segund-bg-color);
+    background: var(--bg-color);
 }
 
 .foto-sobre{
     width: 35rem;
+}
+
+.foto-sobre img{
+    width: 380px;
 }
 
 .txt-h2{
@@ -308,11 +314,11 @@ font-size: 38px;
 
 .servicos-container .servicos-box{
     flex: 1 1 30rem;
-    background: var(--segund-bg-color);
+    background: var(--bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 4rem;
     text-align: center;
-    border: 1rem solid var(--bg-color);
+    border: 1rem solid var(--segund-bg-color);
     transition: .5s ease;
     cursor: pointer;
 
@@ -347,7 +353,7 @@ font-size: 38px;
 /* ESTILIZAR PORTIFOLIO */
 
 .portifolio{
-    background: var(--segund-bg-color);
+    background: var(--bg-color);
 }
 
 .portifolio h2{
